@@ -76,7 +76,7 @@ VAL=$(echo $VAL*10 | bc)
 
 mosquitto_pub -t "Fiesta" -m "$VAL"
 
-
+#python mqtt_publisher.py
 
 
 cp output.txt $FILENAME
